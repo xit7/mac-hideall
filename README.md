@@ -13,6 +13,6 @@ swiftc -O -framework AppKit hideall.swift -o hideall
 * Then add to your shell profile if not already in $PATH:
 
 ```
-echo 'export PATH="$HOME/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH=/opt/local/bin/:$PATH' >> ~/.zshrc
 source ~/.zshrc
 ```
