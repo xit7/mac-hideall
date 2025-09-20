@@ -2,11 +2,19 @@
 Hides all currently unhidden apps
 
 # Compile
-swiftc -O -framework AppKit hideall.swift -o hideall
+(Outdated: swiftc -O -framework AppKit hideall.swift -o hideall)
+
+Run
+```
+build_app.sh
+```
 
 # Usage
+
+```
 ./hideall -h
 ./hideall --help
+```
 
 # Install
 * Place into: /usr/local/bin/
