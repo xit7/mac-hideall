@@ -1,5 +1,6 @@
 # mac-hideall
-Upon systemstart after login MacOS tends to open lots of windows. In prior Tahoe versions there was a LoginItems setting that should have prevented windows from showing up after start ("start hidde"), but that never really worked.
+Upon systemstart after login MacOS tends to open lots of windows - not only windows that were open before, but basically windows will popup for any application that you have setup to automatically start after login.
+In MacOS versions prior Tahoe there was a LoginItems setting that should have prevented windows from showing up after start ("start hidden"). But that never really worked.
 This tiny tool hides all currently unhidden apps once executed. I used it with Alfred App and it works great. Just fire up Alfred after system start and launch "hideall" and the pain is gone :)
 
 # Compile
